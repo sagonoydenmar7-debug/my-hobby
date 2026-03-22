@@ -75,7 +75,7 @@
     <h1>My Favorite Hobby: Basketball 🏀</h1>
 
     <!-- Image -->
-    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Basketball.png" width="400">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Basketball.png" width="400" alt="Basketball">
 
     <p id="description">
         Basketball is my favorite hobby because it is fun, exciting, and keeps me active.
@@ -85,11 +85,18 @@
     <!-- Button with JS -->
     <button onclick="changeText()">Click to Change Description</button>
 
-    <!-- External Link -->
+    <!-- Combined External Links Section -->
     <p>
-        Learn more here:
+        Learn more about basketball:
         <a href="https://en.wikipedia.org/wiki/Basketball" target="_blank">
             Basketball Article
+        </a>
+    </p>
+
+    <p>
+        Explore my personal page:
+        <a href="https://sagonoydenmar7-debug.github.io/learn-more/" target="_blank">
+            Learn More Page
         </a>
     </p>
 
@@ -130,9 +137,9 @@
     <h2>Leave a Comment</h2>
 
     <form onsubmit="showMessage(); return false;">
-        <input type="text" placeholder="Your Name" required><br>
-        <input type="email" placeholder="Your Email" required><br>
-        <textarea rows="4" placeholder="Your Comment"></textarea><br>
+        <input type="text" name="name" placeholder="Your Name" required><br>
+        <input type="email" name="email" placeholder="Your Email" required><br>
+        <textarea name="comment" rows="4" placeholder="Your Comment"></textarea><br>
         <input type="submit" value="Submit">
     </form>
 
@@ -142,95 +149,9 @@
         function showMessage() {
             document.getElementById("message").innerHTML =
             "✅ Thank you for your comment!";
+            document.querySelector("form").reset();
         }
-   
-    <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Basketball Hobby</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f6f8;
-            margin: 0;
-            padding: 0;
-        }
-        header {
-            background-color: #ff6b00;
-            color: white;
-            text-align: center;
-            padding: 20px;
-        }
-        section {
-            padding: 20px;
-            margin: 15px;
-            background: white;
-            border-radius: 10px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-        }
-        h2 {
-            color: #ff6b00;
-        }
-        ul {
-            line-height: 1.8;
-        }
-        footer {
-            text-align: center;
-            padding: 10px;
-            background: #222;
-            color: white;
-        }
-    </style>
-</head>
-<body>
-
-<header>
-    <h1>🏀 My Basketball Hobby</h1>
-    <p>Stay active, have fun, and improve every day!</p>
-</header>
-
-<section>
-    <h2>Basics to Learn</h2>
-    <ul>
-        <li>Dribbling with both hands</li>
-        <li>Shooting with proper form</li>
-        <li>Passing (chest pass, bounce pass)</li>
-    </ul>
-</section>
-
-<section>
-    <h2>Weekly Routine</h2>
-    <ul>
-        <li>Practice 3–4 times a week</li>
-        <li>30–60 minutes per session</li>
-        <li>Mix drills and games</li>
-    </ul>
-</section>
-
-<section>
-    <h2>My Goals</h2>
-    <ul>
-        <li>Make 10 shots in a row</li>
-        <li>Improve weak-hand dribbling</li>
-        <li>Play a full pickup game</li>
-    </ul>
-</section>
-
-<section>
-    <h2>Why I Love Basketball</h2>
-    <p>
-        Basketball keeps me healthy, helps me meet friends, and gives me something fun to improve at every day.
-    </p>
-</section>
-
-<footer>
-    <p>Keep practicing and enjoy the game! 🏀</p>
-    
- </footer>   
-    
     </script>
 
 </body>
 </html>
-
