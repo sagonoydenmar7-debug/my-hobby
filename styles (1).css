@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Basketball Gallery</title>
+
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial;
+            background-color: #f4f4f4;
+        }
+
+        img {
+            margin: 10px;
+            border-radius: 10px;
+            transition: transform 0.3s;
+        }
+
+        img:hover {
+            transform: scale(1.1);
+        }
+
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            font-weight: bold;
+            text-decoration: none;
+            color: #2980b9;
+        }
+    </style>
+
+</head>
+<body>
+
+    <h1>My Basketball Gallery 🏀</h1>
+
+    <img src="https://upload.wikimedia.org/wikipedia/commons/0/03/Basketball_game.jpg" width="300">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Basketball_dunk.jpg" width="300">
+
+    <br>
+
+    <a href="index.html">Back to Home</a>
+
+</body>
+</html>
