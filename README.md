@@ -96,7 +96,7 @@
     <p>
         Explore my personal page:
         <a href="https://sagonoydenmar7-debug.github.io/learn-more/" target="_blank">
-            Learn More Page
+            learn more about my hobby
         </a>
     </p>
 
